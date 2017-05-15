@@ -1,19 +1,25 @@
 package commonqns;
 
+import java.util.Scanner;
+
 public class PrimeNumberGenerator 
 
 {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
+		
+		Scanner scanner = new Scanner(System.in);
+		int K = scanner.nextInt();
 		
 		
-		for(int i =2;i<100; i++){
+		for(int i =1;i<K; i++){
 			
 			for(int j =2; j<=i;j++){
 				
 				if(i==j){
 					
-					System.out.println(i);
+					System.out.print(i + " ");
 				}
 				if(i%j==0){
 					
