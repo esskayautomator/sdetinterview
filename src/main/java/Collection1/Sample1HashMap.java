@@ -14,11 +14,14 @@ public class Sample1HashMap {
 		  hm.put(100,"Amit");  
 		  hm.put(101,"Vijay");  
 		  hm.put(102,"Rahul");  
-		  hm.get(100);
+		  
+		
+		  
+		  
 		  
 		
 		
-		  
+		
 		
 		for(Map.Entry m: hm.entrySet()){
 			
